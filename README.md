@@ -23,7 +23,7 @@ to automatically activate conda env `env_name` on dir entry.
 # file .workspace
 
 if [[ $CONDA_PREFIX != *"env_name"* ]]; then
-    source activate t2t-sum
+    source activate env_name
 fi
 ```
 ## TODO
